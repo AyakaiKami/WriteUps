@@ -1,0 +1,9 @@
+Target IP:10.129.17.15
+
+Tired to look into FTP found nothing
+Tried VSFTP exploit on msfconsole but it does not work.
+I ll try to look at the samba.
+Found CVE-2007-2447 that works.
+
+Notes:
+ Try to look at all the ports and ind CVE by searching for the version of the service
