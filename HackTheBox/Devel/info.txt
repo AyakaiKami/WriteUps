@@ -1,0 +1,12 @@
+Target: 10.129.19.175
+
+On the FTP we find the source of the web site.
+I ll search for php files with gobuster
+Found nothing.
+But I can upload files.
+Can only run aspx files.
+
+What I learned :
+I can  use metasploit for reverse shells
+Metasploit in general
+

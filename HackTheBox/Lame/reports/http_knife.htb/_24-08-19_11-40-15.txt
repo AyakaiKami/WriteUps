@@ -1,0 +1,18 @@
+# Dirsearch started Mon Aug 19 11:40:20 2024 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://knife.htb
+
+403   274B   http://knife.htb/.ht_wsr.txt
+403   274B   http://knife.htb/.htaccess.bak1
+403   274B   http://knife.htb/.htaccess.orig
+403   274B   http://knife.htb/.htaccess.sample
+403   274B   http://knife.htb/.htaccess.save
+403   274B   http://knife.htb/.htaccess_extra
+403   274B   http://knife.htb/.htaccess_orig
+403   274B   http://knife.htb/.htaccessBAK
+403   274B   http://knife.htb/.htaccessOLD
+403   274B   http://knife.htb/.htaccess_sc
+403   274B   http://knife.htb/.htaccessOLD2
+403   274B   http://knife.htb/.htm
+403   274B   http://knife.htb/.html
+403   274B   http://knife.htb/.htpasswd_test
+403   274B   http://knife.htb/.htpasswds
+403   274B   http://knife.htb/.httr-oauth

@@ -1,0 +1,1 @@
+# Nmap 7.94SVN scan initiated Mon Aug 19 10:27:43 2024 as: nmap -oN outputNMAP.txt -sC -sV -p- -vv 10.129.179.141

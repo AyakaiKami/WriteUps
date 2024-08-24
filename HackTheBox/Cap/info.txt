@@ -1,0 +1,7 @@
+Target: 10.129.16.224
+has a website
+
+username nathan
+password Buck3tH4TF0RM3!
+
+Got ssh and ftp open

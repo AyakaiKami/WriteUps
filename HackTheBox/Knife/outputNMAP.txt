@@ -1,0 +1,1 @@
+# Nmap 7.94SVN scan initiated Mon Aug 19 12:43:18 2024 as: nmap -oN outputNMAP.txt -sC -sV -p- --script-timeout 1s -vv 10.129.59.37

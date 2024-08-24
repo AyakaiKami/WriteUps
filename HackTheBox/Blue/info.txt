@@ -1,0 +1,4 @@
+Target:10.129.19.115
+
+Windows & so maybe it s vulnerable to eternal blue
+It works.

@@ -1,0 +1,11 @@
+Target: 10.129.96.84
+
+http://10.129.96.84/nibbleblog/admin.php 
+admin page login
+username: admin
+password: nibbles
+
+
+Idk 
+Try to find info from xml files
+Try to search for exploits of web app dep.
