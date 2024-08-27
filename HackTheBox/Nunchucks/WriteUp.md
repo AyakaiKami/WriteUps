@@ -62,7 +62,7 @@ Using linpeas we find that "/usr/bin/perl" has SUID Capabilities.
 
 ![lin](img7.png)
 
-I fond an apparmor profile for perl in "etc/apparmor.d/".
+I found an apparmor profile for perl in "etc/apparmor.d/".
 
 ```bash
 cd etc/apparmor.d/
