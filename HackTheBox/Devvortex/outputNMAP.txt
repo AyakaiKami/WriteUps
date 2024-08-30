@@ -1,0 +1,18 @@
+# Nmap 7.94SVN scan initiated Fri Aug 30 11:20:00 2024 as: nmap -sC -sV -p- -oN /home/phm/Documents/WriteUps/HackTheBox/Devvortex/outputNMAP.txt --max-retries 1 10.129.105.250
+Warning: 10.129.105.250 giving up on port because retransmission cap hit (1).
+Nmap scan report for 10.129.105.250
+Host is up (0.091s latency).
+Not shown: 64848 closed tcp ports (conn-refused), 685 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.9 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 48:ad:d5:b8:3a:9f:bc:be:f7:e8:20:1e:f6:bf:de:ae (RSA)
+|   256 b7:89:6c:0b:20:ed:49:b2:c1:86:7c:29:92:74:1c:1f (ECDSA)
+|_  256 18:cd:9d:08:a6:21:a8:b8:b6:f7:9f:8d:40:51:54:fb (ED25519)
+80/tcp open  http    nginx 1.18.0 (Ubuntu)
+|_http-title: Did not follow redirect to http://devvortex.htb/
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Aug 30 11:22:52 2024 -- 1 IP address (1 host up) scanned in 171.93 seconds
