@@ -1,0 +1,27 @@
+# Nmap 7.94SVN scan initiated Mon Sep  2 23:13:39 2024 as: nmap -sC -sV -p- -oN /home/phm/Documents/WriteUps/HackTheBox/Granny/outputNMAP.txt --max-retries 1 10.129.95.234
+Nmap scan report for 10.129.95.234
+Host is up (0.078s latency).
+Not shown: 65534 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Microsoft IIS httpd 6.0
+| http-methods: 
+|_  Potentially risky methods: TRACE DELETE COPY MOVE PROPFIND PROPPATCH SEARCH MKCOL LOCK UNLOCK PUT
+|_http-title: Under Construction
+| http-ntlm-info: 
+|   Target_Name: GRANNY
+|   NetBIOS_Domain_Name: GRANNY
+|   NetBIOS_Computer_Name: GRANNY
+|   DNS_Domain_Name: granny
+|   DNS_Computer_Name: granny
+|_  Product_Version: 5.2.3790
+|_http-server-header: Microsoft-IIS/6.0
+| http-webdav-scan: 
+|   Public Options: OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH
+|   Server Date: Mon, 02 Sep 2024 20:17:51 GMT
+|   WebDAV type: Unknown
+|   Allowed Methods: OPTIONS, TRACE, GET, HEAD, DELETE, COPY, MOVE, PROPFIND, PROPPATCH, SEARCH, MKCOL, LOCK, UNLOCK
+|_  Server Type: Microsoft-IIS/6.0
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep  2 23:17:56 2024 -- 1 IP address (1 host up) scanned in 257.93 seconds
