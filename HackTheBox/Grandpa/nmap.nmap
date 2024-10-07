@@ -1,0 +1,23 @@
+# Nmap 7.94SVN scan initiated Fri Oct  4 11:48:33 2024 as: /usr/lib/nmap/nmap --privileged -sC -sV -p- -oA nmap -vv 10.129.95.233
+Nmap scan report for 10.129.95.233
+Host is up, received echo-reply ttl 127 (0.047s latency).
+Scanned at 2024-10-04 11:48:34 EEST for 183s
+Not shown: 65534 filtered tcp ports (no-response)
+PORT   STATE SERVICE REASON          VERSION
+80/tcp open  http    syn-ack ttl 127 Microsoft IIS httpd 6.0
+|_http-title: Under Construction
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD COPY PROPFIND SEARCH LOCK UNLOCK DELETE PUT POST MOVE MKCOL PROPPATCH
+|_  Potentially risky methods: TRACE COPY PROPFIND SEARCH LOCK UNLOCK DELETE PUT MOVE MKCOL PROPPATCH
+| http-webdav-scan: 
+|   Allowed Methods: OPTIONS, TRACE, GET, HEAD, COPY, PROPFIND, SEARCH, LOCK, UNLOCK
+|   WebDAV type: Unknown
+|   Server Type: Microsoft-IIS/6.0
+|   Server Date: Fri, 04 Oct 2024 08:51:32 GMT
+|_  Public Options: OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH
+|_http-server-header: Microsoft-IIS/6.0
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Oct  4 11:51:37 2024 -- 1 IP address (1 host up) scanned in 183.87 seconds

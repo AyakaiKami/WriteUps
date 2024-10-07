@@ -1,0 +1,32 @@
+# Dirsearch started Mon May 27 11:26:41 2024 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://board.htb
+
+301   303B   http://board.htb/js    -> REDIRECTS TO: http://board.htb/js/
+403   274B   http://board.htb/.ht_wsr.txt
+403   274B   http://board.htb/.htaccess.orig
+403   274B   http://board.htb/.htaccess.bak1
+403   274B   http://board.htb/.htaccess.save
+403   274B   http://board.htb/.htaccess_orig
+403   274B   http://board.htb/.htaccess.sample
+403   274B   http://board.htb/.htaccess_sc
+403   274B   http://board.htb/.htaccess_extra
+403   274B   http://board.htb/.htaccessOLD2
+403   274B   http://board.htb/.htaccessOLD
+403   274B   http://board.htb/.htaccessBAK
+403   274B   http://board.htb/.htm
+403   274B   http://board.htb/.html
+403   274B   http://board.htb/.htpasswd_test
+403   274B   http://board.htb/.httr-oauth
+403   274B   http://board.htb/.htpasswds
+403   274B   http://board.htb/.php
+200     2KB  http://board.htb/about.php
+404    16B   http://board.htb/composer.phar
+200     2KB  http://board.htb/contact.php
+301   304B   http://board.htb/css    -> REDIRECTS TO: http://board.htb/css/
+403   274B   http://board.htb/images/
+301   307B   http://board.htb/images    -> REDIRECTS TO: http://board.htb/images/
+403   274B   http://board.htb/js/
+404    16B   http://board.htb/php-cs-fixer.phar
+403   274B   http://board.htb/php5.fcgi
+404    16B   http://board.htb/phpunit.phar
+403   274B   http://board.htb/server-status/
+403   274B   http://board.htb/server-status
